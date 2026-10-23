@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>WARGRID: Chỉ Huy AI</title>
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="stylesheet" href="src/ui/style.css">
+  <script type="importmap">
+    { "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/addons/" } }
+  </script>
+</head>
+<body>
+  <div id="app">
+    <canvas id="view"></canvas>
+    <!-- In-match HUD (GDD §16) -->
+    <div id="hud" class="hidden">
+      <div id="hud-top">
+        <div id="hud-left" class="panel"></div>
+        <div id="hud-center"></div>
+        <div id="hud-right" class="panel"></div>
+      </div>
+      <div id="hud-side"></div>
+      <div id="minimap-wrap" class="panel"><canvas id="minimap" width="240" height="150"></canvas></div>
+      <div id="deploy-panel" class="panel hidden"></div>
+      <div id="selection-panel" class="panel hidden"></div>
+      <div id="command-bar" class="panel hidden"></div>
+      <div id="hud-buttons"></div>
+      <div id="toasts"></div>
+      <div id="select-box" class="hidden"></div>
+    </div>
+    <!-- Menus / pre-match screens -->
+    <div id="screens"></div>
+    <!-- Shop (S), roster (B), dialogs -->
+    <div id="modal" class="hidden"></div>
+    <!-- Tutorial overlay (highlights where to click) -->
+    <div id="tutorial" class="hidden"></div>
+    <div id="loading"><div class="loading-logo">WARGRID</div><div class="loading-bar"><i></i></div><div class="loading-text">Đang tải...</div></div>
+  </div>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

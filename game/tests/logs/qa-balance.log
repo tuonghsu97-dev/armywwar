@@ -1,0 +1,263 @@
+plains steel vs air s3: t=388s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+plains steel vs air s4: t=276s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+plains steel vs navy s3: t=505s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=0 stuck=0
+plains steel vs navy s4: t=401s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+plains steel vs swarm s3: t=505s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=0 stuck=1
+plains steel vs swarm s4: t=505s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=0 stuck=0
+plains steel vs ew s3: t=359s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=1 stuck=1
+plains steel vs ew s4: t=368s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+plains air vs steel s3: t=378s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+plains air vs steel s4: t=381s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+plains air vs navy s3: t=510s winner=0 (Phe Đỏ phá sản: không trả được nợ đến hạn dù đã bán khí tài) err=false dom=0 stuck=0
+plains air vs navy s4: t=510s winner=0 (Phe Đỏ phá sản: không trả được nợ đến hạn dù đã bán khí tài) err=false dom=0 stuck=0
+plains air vs swarm s3: t=1294s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+plains air vs swarm s4: t=843s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+plains air vs ew s3: t=647s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+plains air vs ew s4: t=553s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+plains navy vs steel s3: t=212s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+plains navy vs steel s4: t=238s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+plains navy vs air s3: t=472s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+plains navy vs air s4: t=510s winner=1 (Phe Xanh phá sản: không trả được nợ đến hạn dù đã bán khí tài) err=false dom=0 stuck=0
+plains navy vs swarm s3: t=505s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+plains navy vs swarm s4: t=510s winner=1 (Phe Xanh phá sản: không trả được nợ đến hạn dù đã bán khí tài) err=false dom=0 stuck=0
+plains navy vs ew s3: t=354s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+plains navy vs ew s4: t=338s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+plains swarm vs steel s3: t=508s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+plains swarm vs steel s4: t=708s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+plains swarm vs air s3: t=1397s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=0 stuck=0
+plains swarm vs air s4: t=1835s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+plains swarm vs navy s3: t=374s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+plains swarm vs navy s4: t=418s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+plains swarm vs ew s3: t=840s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=0 stuck=0
+plains swarm vs ew s4: t=1022s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+plains ew vs steel s3: t=548s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+plains ew vs steel s4: t=601s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+plains ew vs air s3: t=561s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=1 stuck=1
+plains ew vs air s4: t=789s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=0 stuck=0
+plains ew vs navy s3: t=510s winner=0 (Phe Đỏ phá sản: không trả được nợ đến hạn dù đã bán khí tài) err=false dom=1 stuck=0
+plains ew vs navy s4: t=389s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=1 stuck=1
+plains ew vs swarm s3: t=1005s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=0 stuck=0
+plains ew vs swarm s4: t=1270s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=1 stuck=0
+city steel vs air s3: t=1003s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=1 stuck=1
+city steel vs air s4: t=404s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+city steel vs navy s3: t=510s winner=0 (Phe Đỏ phá sản: không trả được nợ đến hạn dù đã bán khí tài) err=false dom=0 stuck=0
+city steel vs navy s4: t=510s winner=0 (Phe Đỏ phá sản: không trả được nợ đến hạn dù đã bán khí tài) err=false dom=0 stuck=0
+city steel vs swarm s3: t=1683s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+city steel vs swarm s4: t=1975s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=0 stuck=0
+city steel vs ew s3: t=195s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+city steel vs ew s4: t=795s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+city air vs steel s3: t=309s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=1 stuck=0
+city air vs steel s4: t=606s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+city air vs navy s3: t=919s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+city air vs navy s4: t=1666s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+city air vs swarm s3: t=905s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+city air vs swarm s4: t=1778s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+city air vs ew s3: t=834s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+city air vs ew s4: t=1032s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=0 stuck=0
+city navy vs steel s3: t=534s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+city navy vs steel s4: t=597s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+city navy vs air s3: t=1253s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+city navy vs air s4: t=534s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+city navy vs swarm s3: t=510s winner=1 (Phe Xanh phá sản: không trả được nợ đến hạn dù đã bán khí tài) err=false dom=0 stuck=0
+city navy vs swarm s4: t=1326s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+city navy vs ew s3: t=1211s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+city navy vs ew s4: t=1071s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+city swarm vs steel s3: t=755s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+city swarm vs steel s4: t=590s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+city swarm vs air s3: t=1445s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+city swarm vs air s4: t=2014s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+city swarm vs navy s3: t=432s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+city swarm vs navy s4: t=491s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+city swarm vs ew s3: t=1016s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+city swarm vs ew s4: t=780s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+city ew vs steel s3: t=505s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+city ew vs steel s4: t=669s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+city ew vs air s3: t=940s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+city ew vs air s4: t=731s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+city ew vs navy s3: t=1029s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+city ew vs navy s4: t=396s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+city ew vs swarm s3: t=683s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=0 stuck=0
+city ew vs swarm s4: t=880s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=0 stuck=0
+bay steel vs air s3: t=550s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay steel vs air s4: t=523s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay steel vs navy s3: t=510s winner=0 (Phe Đỏ phá sản: không trả được nợ đến hạn dù đã bán khí tài) err=false dom=0 stuck=0
+bay steel vs navy s4: t=604s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay steel vs swarm s3: t=395s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay steel vs swarm s4: t=1092s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay steel vs ew s3: t=2911s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+bay steel vs ew s4: t=1272s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay air vs steel s3: t=556s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+bay air vs steel s4: t=665s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+bay air vs navy s3: t=534s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=0 stuck=0
+bay air vs navy s4: t=686s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay air vs swarm s3: t=815s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=0 stuck=0
+bay air vs swarm s4: t=618s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay air vs ew s3: t=1207s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+bay air vs ew s4: t=684s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay navy vs steel s3: t=424s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+bay navy vs steel s4: t=1137s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+bay navy vs air s3: t=443s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+bay navy vs air s4: t=353s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay navy vs swarm s3: t=510s winner=1 (Phe Xanh phá sản: không trả được nợ đến hạn dù đã bán khí tài) err=false dom=0 stuck=0
+bay navy vs swarm s4: t=510s winner=1 (Phe Xanh phá sản: không trả được nợ đến hạn dù đã bán khí tài) err=false dom=0 stuck=0
+bay navy vs ew s3: t=1082s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay navy vs ew s4: t=1205s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay swarm vs steel s3: t=685s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+bay swarm vs steel s4: t=540s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+bay swarm vs air s3: t=768s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+bay swarm vs air s4: t=554s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+bay swarm vs navy s3: t=510s winner=0 (Phe Đỏ phá sản: không trả được nợ đến hạn dù đã bán khí tài) err=false dom=0 stuck=0
+bay swarm vs navy s4: t=398s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay swarm vs ew s3: t=1151s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay swarm vs ew s4: t=1278s winner=1 (Thành chỉ huy của Phe Xanh đã bị phá hủy) err=false dom=0 stuck=0
+bay ew vs steel s3: t=2263s winner=1 (Phe Xanh đã đầu hàng) err=false dom=0 stuck=0
+bay ew vs steel s4: t=1594s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay ew vs air s3: t=609s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay ew vs air s4: t=576s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay ew vs navy s3: t=534s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=0 stuck=0
+bay ew vs navy s4: t=458s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay ew vs swarm s3: t=802s winner=0 (Thành chỉ huy của Phe Đỏ đã bị phá hủy) err=false dom=0 stuck=0
+bay ew vs swarm s4: t=639s winner=0 (Phe Đỏ đã đầu hàng) err=false dom=0 stuck=0
+
+Win rate per commander@map:
+steel@plains     16/16 100% 
+air@plains       5/16 31% 
+navy@plains      0/16 0% 
+swarm@plains     8/16 50% 
+ew@plains        11/16 69% 
+steel@city       15/16 94% 
+air@city         8/16 50% 
+navy@city        2/16 13% 
+swarm@city       5/16 31% 
+ew@city          10/16 63% 
+steel@bay        14/16 88% 
+air@bay          8/16 50% 
+navy@bay         3/16 19% 
+swarm@bay        5/16 31% 
+ew@bay           10/16 63% 
+
+End reasons: {
+ "Thành chỉ huy của X đã bị phá hủy": 69,
+ "X đã đầu hàng": 39,
+ "X phá sản: không trả được nợ đến hạn dù đã bán khí tài": 12
+}
+TAP version 13
+# Subtest: sim sweep plains: steel vs swarm
+ok 1 - sim sweep plains: steel vs swarm
+  ---
+  duration_ms: 835.7754
+  type: 'test'
+  ...
+# Subtest: sim sweep plains: air vs ew
+ok 2 - sim sweep plains: air vs ew
+  ---
+  duration_ms: 1443.1408
+  type: 'test'
+  ...
+# Subtest: sim sweep plains: navy vs air
+ok 3 - sim sweep plains: navy vs air
+  ---
+  duration_ms: 831.9761
+  type: 'test'
+  ...
+# Subtest: sim sweep plains: swarm vs ew
+ok 4 - sim sweep plains: swarm vs ew
+  ---
+  duration_ms: 2495.5259
+  type: 'test'
+  ...
+# Subtest: sim sweep plains: ew vs steel
+not ok 5 - sim sweep plains: ew vs steel
+  ---
+  duration_ms: 1070.2517
+  type: 'test'
+  location: 'D:\\HoangKiet\\armywwar\\game\\tests\\qa-sim.test.mjs:64:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    units on wrong terrain: [{"t":201,"unit":"infantry","side":1,"layer":"ground","x":119.8,"z":65.3,"intent":"capture"}]
+    
+    1 !== 0
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 0
+  actual: 1
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///D:/HoangKiet/armywwar/game/tests/qa-sim.test.mjs:70:12)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: sim sweep city: steel vs swarm
+ok 6 - sim sweep city: steel vs swarm
+  ---
+  duration_ms: 1219.481
+  type: 'test'
+  ...
+# Subtest: sim sweep city: air vs ew
+ok 7 - sim sweep city: air vs ew
+  ---
+  duration_ms: 1992.7381
+  type: 'test'
+  ...
+# Subtest: sim sweep city: navy vs air
+ok 8 - sim sweep city: navy vs air
+  ---
+  duration_ms: 2479.099
+  type: 'test'
+  ...
+# Subtest: sim sweep city: swarm vs ew
+ok 9 - sim sweep city: swarm vs ew
+  ---
+  duration_ms: 940.4543
+  type: 'test'
+  ...
+# Subtest: sim sweep city: ew vs steel
+ok 10 - sim sweep city: ew vs steel
+  ---
+  duration_ms: 1221.5001
+  type: 'test'
+  ...
+# Subtest: sim sweep bay: steel vs swarm
+ok 11 - sim sweep bay: steel vs swarm
+  ---
+  duration_ms: 896.4783
+  type: 'test'
+  ...
+# Subtest: sim sweep bay: air vs ew
+ok 12 - sim sweep bay: air vs ew
+  ---
+  duration_ms: 1815.713
+  type: 'test'
+  ...
+# Subtest: sim sweep bay: navy vs air
+ok 13 - sim sweep bay: navy vs air
+  ---
+  duration_ms: 430.0792
+  type: 'test'
+  ...
+# Subtest: sim sweep bay: swarm vs ew
+ok 14 - sim sweep bay: swarm vs ew
+  ---
+  duration_ms: 1970.4666
+  type: 'test'
+  ...
+# Subtest: sim sweep bay: ew vs steel
+ok 15 - sim sweep bay: ew vs steel
+  ---
+  duration_ms: 5225.1057
+  type: 'test'
+  ...
+1..15
+# tests 15
+# suites 0
+# pass 14
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 193291.1096

@@ -1,0 +1,308 @@
+[
+ {
+  "path": "logo.png",
+  "width": 1024,
+  "height": 1024,
+  "prompt": "Square 1:1 1024x1024 game logo emblem for a modern military tactics game named WARGRID: a faceted low-poly hexagonal military badge in olive green and dark slate with amber gold trim, a low-poly main battle tank in front of a tactical radar grid, a gold star at top, and the single word WARGRID in bold chiseled letters across the bottom. The only text is WARGRID, spelled exactly W-A-R-G-R-I-D. Dark charcoal background. No flags, no real insignia."
+ },
+ {
+  "path": "menu_bg.jpg",
+  "width": 1920,
+  "height": 1080,
+  "prompt": "Wide 16:9 cinematic landscape game menu background: isometric 2.5D battlefield at dusk in low-poly faceted 3D style; main battle tanks advancing on a hill, attack helicopters flying, warships in a bay with an aircraft carrier, a swarm of small drones in the orange-purple sky, smoke and glowing tracer lights. The left third of the image is much darker and calmer (deep shadow, mostly empty dark slate sky and terrain) so UI text can be overlaid there; action concentrated on the right two thirds. Palette: dark slate, olive green, amber gold highlights, small blue team lights. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "commanders/steel.png",
+  "width": 512,
+  "height": 512,
+  "prompt": "Style: square 1:1 character portrait, head and shoulders bust, faceted low-poly painterly digital art, dramatic rim lighting, dark slate background, fictional person (not a real person), modern fictional military uniform without any patches or flags. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Subject: a stern middle-aged East Asian male ground forces general with grey hair, steel grey uniform, a low-poly main battle tank silhouette behind him, steel grey and cold white accent lighting."
+ },
+ {
+  "path": "commanders/air.png",
+  "width": 512,
+  "height": 512,
+  "prompt": "Style: square 1:1 character portrait, head and shoulders bust, faceted low-poly painterly digital art, dramatic rim lighting, dark slate background, fictional person (not a real person), modern fictional military uniform without any patches or flags. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Subject: a confident Black female air force commander in a flight suit holding a pilot helmet with visor, sky blue accent lighting, faint jet contrails in the background."
+ },
+ {
+  "path": "commanders/navy.png",
+  "width": 512,
+  "height": 512,
+  "prompt": "Style: square 1:1 character portrait, head and shoulders bust, faceted low-poly painterly digital art, dramatic rim lighting, dark slate background, fictional person (not a real person), modern fictional military uniform without any patches or flags. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Subject: a calm white male admiral with a short beard in a white naval dress uniform with peaked cap, teal accent lighting, a dark sea and warship silhouette behind."
+ },
+ {
+  "path": "commanders/swarm.png",
+  "width": 512,
+  "height": 512,
+  "prompt": "Style: square 1:1 character portrait, head and shoulders bust, faceted low-poly painterly digital art, dramatic rim lighting, dark slate background, fictional person (not a real person), modern fictional military uniform without any patches or flags. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Subject: a young South Asian female tech commander wearing a glowing amber augmented-reality visor, small quadcopter drones hovering around her, amber accent lighting."
+ },
+ {
+  "path": "commanders/ew.png",
+  "width": 512,
+  "height": 512,
+  "prompt": "Style: square 1:1 character portrait, head and shoulders bust, faceted low-poly painterly digital art, dramatic rim lighting, dark slate background, fictional person (not a real person), modern fictional military uniform without any patches or flags. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Subject: a Latino male electronic warfare officer wearing a tactical headset with microphone, holographic waveforms, green and purple digital glitch accent lighting."
+ },
+ {
+  "path": "units/infantry.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a squad of three modern infantry soldiers in helmets and body armor with rifles, standing in tactical pose. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/at_team.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a two-soldier anti-tank team, one kneeling with a shoulder-launched guided anti-tank missile launcher tube (Javelin-like), the other spotting. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/tank_heavy.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a heavy main battle tank with long cannon and angular armor (Abrams/Leopard-like, fictional). Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/spg.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a tracked self-propelled howitzer with a long artillery barrel raised (K9/PzH2000-like, fictional). Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/himars.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a wheeled 6x6 truck-mounted rocket launcher with a raised launch pod box (HIMARS-like, fictional). Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/apc.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: an 8x8 wheeled armored personnel carrier with small turret. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/supply_truck.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a military logistics cargo truck with canvas-covered bed carrying ammo crates. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/ugv.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a small tracked unmanned ground vehicle robot with a sensor mast and small weapon station. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/drone_recon.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a small fixed-wing reconnaissance drone with V-tail and camera pod (TB2-like, fictional), flying. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/drone_male.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a large long-endurance armed drone with long wings, rear propeller and underwing missiles (MQ-9-like, fictional), flying. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/drone_kamikaze.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a loitering munition drone with delta/cross wings and pointed warhead nose, diving. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/swarm_fpv.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a swarm of five small quadcopter FPV drones flying in formation. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/fighter_stealth.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a fifth-generation stealth fighter jet with angular faceted body and twin canted tails (F-35/F-22-like, fictional), flying. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/fighter_multi.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a delta-wing canard multirole fighter jet (Rafale-like, fictional), flying. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/heli_attack.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: an attack helicopter with tandem cockpit, stub wings with rockets and missiles (Apache-like, fictional), flying. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/heli_transport.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a twin-engine utility transport helicopter (Black Hawk-like, fictional), flying. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/bomber.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a flying-wing stealth strategic bomber (B-21-like, fictional), flying. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/cca.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a sleek unmanned loyal-wingman combat drone jet with no cockpit (Valkyrie/Ghost Bat-like, fictional), flying. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/destroyer.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a guided-missile destroyer warship with large flat radar panels and vertical launch cells, on a small patch of dark water. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/stealth_ship.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a stealth destroyer warship with tumblehome angular hull and faceted superstructure (Zumwalt-like, fictional), on a small patch of dark water. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/submarine.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a nuclear attack submarine partially surfaced with conning tower, on a small patch of dark water. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/uuv.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a torpedo-shaped unmanned underwater vehicle with fins and sensor nose, underwater with bubbles. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/sam.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a long-range surface-to-air missile launcher truck with four raised missile canisters and a radar (Patriot/S-400-like, fictional). Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/iron_dome.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a short-range interceptor missile battery: a trailer launcher with an angled box of many interceptor tubes, one interceptor launching. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/laser.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a high-energy laser weapon turret mounted on an armored vehicle emitting a bright amber beam into the sky. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/ew.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: an electronic warfare truck with large dish antennas and arrays emitting faint visible radio wave rings. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/carrier.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a large nuclear aircraft carrier with flat deck and small jets parked, on a small patch of dark water. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "units/hypersonic.png",
+  "width": 256,
+  "height": 256,
+  "prompt": "Subject: a hypersonic glide missile with sharp wedge body flying fast with glowing hot leading edges and plasma trail. Style: game unit icon, square 1:1, 3/4 isometric view from above, low-poly faceted 3D render with flat-shaded polygons, the subject centered and filling about 70% of the frame, placed on a uniform dark slate (#1b2228) rounded-square tile background with a very subtle faint grid, soft top light and a thin cool rim light, muted olive green and gunmetal grey palette with small amber gold accent lights, fictional modern military design. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark."
+ },
+ {
+  "path": "maps/city.jpg",
+  "width": 640,
+  "height": 400,
+  "prompt": "Style: top-down isometric view game map thumbnail, low-poly faceted 3D diorama, wide 16:10 landscape, muted palette, soft lighting, readable terrain. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Subject: a dense modern city with tall buildings, narrow streets and a bridge over a river."
+ },
+ {
+  "path": "maps/plains.jpg",
+  "width": 640,
+  "height": 400,
+  "prompt": "Style: top-down isometric view game map thumbnail, low-poly faceted 3D diorama, wide 16:10 landscape, muted palette, soft lighting, readable terrain. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Subject: wide green grassland with rolling hills, a small winding river, and three clear dirt roads (lanes) running across."
+ },
+ {
+  "path": "maps/bay.jpg",
+  "width": 640,
+  "height": 400,
+  "prompt": "Style: top-down isometric view game map thumbnail, low-poly faceted 3D diorama, wide 16:10 landscape, muted palette, soft lighting, readable terrain. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Subject: a sea bay with several islands, narrow straits, deep dark blue and shallow turquoise water, and a small port with docks."
+ },
+ {
+  "path": "bosses/carrier.png",
+  "width": 512,
+  "height": 512,
+  "prompt": "Style: square 1:1 boss artwork, dramatic low-poly faceted 3D render, isometric 3/4 view, dark slate background with red enemy accent lights and glow, ominous mood. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Subject: a massive armored mobile aircraft carrier fortress at sea, launching jets, bristling with weapons."
+ },
+ {
+  "path": "bosses/aa_fortress.png",
+  "width": 512,
+  "height": 512,
+  "prompt": "Style: square 1:1 boss artwork, dramatic low-poly faceted 3D render, isometric 3/4 view, dark slate background with red enemy accent lights and glow, ominous mood. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Subject: a huge anti-air citadel fortress on a hill with many missile launchers, radar domes and anti-aircraft guns firing into the sky."
+ },
+ {
+  "path": "bosses/strategic_sub.png",
+  "width": 512,
+  "height": 512,
+  "prompt": "Style: square 1:1 boss artwork, dramatic low-poly faceted 3D render, isometric 3/4 view, dark slate background with red enemy accent lights and glow, ominous mood. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Subject: a giant strategic ballistic missile submarine surfacing from dark ocean, water cascading off its hull, missile hatches open."
+ },
+ {
+  "path": "bosses/ai_city.png",
+  "width": 512,
+  "height": 512,
+  "prompt": "Style: square 1:1 boss artwork, dramatic low-poly faceted 3D render, isometric 3/4 view, dark slate background with red enemy accent lights and glow, ominous mood. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Subject: a futuristic AI city of dark angular towers rising from the cracked ground with a giant glowing red core at its center and data light lines."
+ },
+ {
+  "path": "commands/attack.png",
+  "width": 128,
+  "height": 128,
+  "prompt": "Style: square 1:1 flat minimal symbolic UI icon, a single bold white glyph with amber gold accent, centered with generous padding, thick clean strokes, on a plain solid dark slate (#1b2228) background, no gradients. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Glyph: a sword pointing forward diagonally with a small amber spark, meaning attack."
+ },
+ {
+  "path": "commands/defend.png",
+  "width": 128,
+  "height": 128,
+  "prompt": "Style: square 1:1 flat minimal symbolic UI icon, a single bold white glyph with amber gold accent, centered with generous padding, thick clean strokes, on a plain solid dark slate (#1b2228) background, no gradients. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Glyph: a shield, meaning defend."
+ },
+ {
+  "path": "commands/suppress.png",
+  "width": 128,
+  "height": 128,
+  "prompt": "Style: square 1:1 flat minimal symbolic UI icon, a single bold white glyph with amber gold accent, centered with generous padding, thick clean strokes, on a plain solid dark slate (#1b2228) background, no gradients. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Glyph: a crosshair with short burst lines around it, meaning suppressive fire."
+ },
+ {
+  "path": "commands/flank.png",
+  "width": 128,
+  "height": 128,
+  "prompt": "Style: square 1:1 flat minimal symbolic UI icon, a single bold white glyph with amber gold accent, centered with generous padding, thick clean strokes, on a plain solid dark slate (#1b2228) background, no gradients. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Glyph: a curved arrow sweeping around a small block obstacle, meaning flank."
+ },
+ {
+  "path": "commands/sead.png",
+  "width": 128,
+  "height": 128,
+  "prompt": "Style: square 1:1 flat minimal symbolic UI icon, a single bold white glyph with amber gold accent, centered with generous padding, thick clean strokes, on a plain solid dark slate (#1b2228) background, no gradients. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Glyph: a radar dish crossed by a downward strike arrow, meaning suppression of enemy air defenses."
+ },
+ {
+  "path": "commands/retreat.png",
+  "width": 128,
+  "height": 128,
+  "prompt": "Style: square 1:1 flat minimal symbolic UI icon, a single bold white glyph with amber gold accent, centered with generous padding, thick clean strokes, on a plain solid dark slate (#1b2228) background, no gradients. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Glyph: a double chevron pointing backward to the left, meaning retreat."
+ },
+ {
+  "path": "commands/focus.png",
+  "width": 128,
+  "height": 128,
+  "prompt": "Style: square 1:1 flat minimal symbolic UI icon, a single bold white glyph with amber gold accent, centered with generous padding, thick clean strokes, on a plain solid dark slate (#1b2228) background, no gradients. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Glyph: a target reticle with concentric rings and a solid amber center dot, meaning focus fire."
+ },
+ {
+  "path": "commands/capture.png",
+  "width": 128,
+  "height": 128,
+  "prompt": "Style: square 1:1 flat minimal symbolic UI icon, a single bold white glyph with amber gold accent, centered with generous padding, thick clean strokes, on a plain solid dark slate (#1b2228) background, no gradients. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Glyph: a plain blank flag on a pole planted on a circle point, meaning capture objective."
+ },
+ {
+  "path": "commands/move.png",
+  "width": 128,
+  "height": 128,
+  "prompt": "Style: square 1:1 flat minimal symbolic UI icon, a single bold white glyph with amber gold accent, centered with generous padding, thick clean strokes, on a plain solid dark slate (#1b2228) background, no gradients. No text, no letters, no numbers, no logos, no national flags, no real insignia, no watermark. Glyph: a forward arrow with a dotted path behind it, meaning move."
+ }
+]

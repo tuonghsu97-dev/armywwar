@@ -1,0 +1,620 @@
+{
+  "aa_fortress": {
+    "file": "aa_fortress.glb",
+    "tris": 1588,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Boss: large concrete air-defence fortress with 8 SAM launcher packs, central radar dome and radar panels. Flag node 'Flag'.",
+    "size_m": [
+      49.0,
+      25.2,
+      49.0
+    ],
+    "bytes": 94868,
+    "preview": "preview/aa_fortress.png"
+  },
+  "ai_city_core": {
+    "file": "ai_city_core.glb",
+    "tris": 524,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Boss: futuristic AI tower rising from a hex base, glowing rings and a glowing core node 'Core' inside an open cage.",
+    "size_m": [
+      31.18,
+      60.6,
+      36.0
+    ],
+    "bytes": 33640,
+    "preview": "preview/ai_city_core.png"
+  },
+  "apc": {
+    "file": "apc.glb",
+    "tris": 7805,
+    "source": "ArmoredTruck_8x8.blend",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "8x8 armored truck; rear door closed, wheels static.",
+    "size_m": [
+      3.82,
+      3.8,
+      10.96
+    ],
+    "bytes": 535936,
+    "preview": "preview/apc.png"
+  },
+  "bomber": {
+    "file": "bomber.glb",
+    "tris": 5946,
+    "source": "Fighterjet.blend",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Flying-wing style bomber; bombs and FX stripped, bay doors closed.",
+    "size_m": [
+      41.0,
+      2.56,
+      24.5
+    ],
+    "bytes": 189052,
+    "preview": "preview/bomber.png"
+  },
+  "building_a": {
+    "file": "building_a.glb",
+    "tris": 96,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Low-rise 2-storey city block (shop/house).",
+    "size_m": [
+      12.2,
+      7.9,
+      10.71
+    ],
+    "bytes": 9352,
+    "preview": "preview/building_a.png"
+  },
+  "building_b": {
+    "file": "building_b.glb",
+    "tris": 148,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Mid-rise 6-storey city block with rooftop water tank.",
+    "size_m": [
+      14.2,
+      22.5,
+      14.2
+    ],
+    "bytes": 12348,
+    "preview": "preview/building_b.png"
+  },
+  "building_c": {
+    "file": "building_c.glb",
+    "tris": 276,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "High-rise 16-storey tower with setback and antenna.",
+    "size_m": [
+      16.2,
+      62.2,
+      16.2
+    ],
+    "bytes": 18616,
+    "preview": "preview/building_c.png"
+  },
+  "bunker": {
+    "file": "bunker.glb",
+    "tris": 228,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Concrete hexagonal pillbox with firing slits and sandbags. TeamColor band at roof edge.",
+    "size_m": [
+      8.43,
+      3.4,
+      7.55
+    ],
+    "bytes": 16880,
+    "preview": "preview/bunker.png"
+  },
+  "carrier": {
+    "file": "carrier.glb",
+    "tris": 436,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Nuclear aircraft carrier (boss): flight deck with angled deck, island, parked jets. Origin at waterline. TeamColor island band + deck marks.",
+    "size_m": [
+      34.5,
+      31.0,
+      110.0
+    ],
+    "bytes": 28488,
+    "preview": "preview/carrier.png"
+  },
+  "cca": {
+    "file": "cca.glb",
+    "tris": 140,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Small tailless collaborative combat aircraft / loyal-wingman drone. TeamColor wing stripes.",
+    "size_m": [
+      10.4,
+      0.87,
+      8.65
+    ],
+    "bytes": 10920,
+    "preview": "preview/cca.png"
+  },
+  "destroyer": {
+    "file": "destroyer.glb",
+    "tris": 3716,
+    "source": "Warship.blend",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Guided-missile destroyer; origin at waterline.",
+    "size_m": [
+      7.6,
+      20.8,
+      40.5
+    ],
+    "bytes": 193472,
+    "preview": "preview/destroyer.png"
+  },
+  "drone": {
+    "file": "drone.glb",
+    "tris": 2994,
+    "source": "CombatDrone.blend",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Quad combat drone with gun gimbal. Four props as nodes Rotor_LF/RF/LR/RR (spin around local up).",
+    "size_m": [
+      3.8,
+      1.87,
+      4.06
+    ],
+    "bytes": 159804,
+    "preview": "preview/drone.png"
+  },
+  "drone_kamikaze": {
+    "file": "drone_kamikaze.glb",
+    "tris": 196,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Cruciform loitering munition (Switchblade/Lancet style), pusher prop at tail.",
+    "size_m": [
+      0.79,
+      0.79,
+      1.71
+    ],
+    "bytes": 14384,
+    "preview": "preview/drone_kamikaze.png"
+  },
+  "ew": {
+    "file": "ew.glb",
+    "tris": 704,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Electronic-warfare truck: shelter with tilted dish and two telescopic masts with panel antennas.",
+    "size_m": [
+      3.07,
+      7.9,
+      7.71
+    ],
+    "bytes": 42140,
+    "preview": "preview/ew.png"
+  },
+  "fighter_multi": {
+    "file": "fighter_multi.glb",
+    "tris": 252,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Delta-wing canard multirole fighter (Rafale/Gripen style). TeamColor tail tip.",
+    "size_m": [
+      10.8,
+      4.5,
+      16.15
+    ],
+    "bytes": 17060,
+    "preview": "preview/fighter_multi.png"
+  },
+  "fighter_stealth": {
+    "file": "fighter_stealth.glb",
+    "tris": 244,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Angular 5th-gen stealth fighter, twin canted tails (F-22 style). TeamColor tail tips.",
+    "size_m": [
+      13.6,
+      3.64,
+      19.5
+    ],
+    "bytes": 16896,
+    "preview": "preview/fighter_stealth.png"
+  },
+  "fpv": {
+    "file": "fpv.glb",
+    "tris": 168,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Tiny FPV quadcopter (<200 tris).",
+    "size_m": [
+      0.33,
+      0.06,
+      0.29
+    ],
+    "bytes": 13044,
+    "preview": "preview/fpv.png"
+  },
+  "heli_attack": {
+    "file": "heli_attack.glb",
+    "tris": 4904,
+    "source": "AttackHeli_Mi28_Fly.blend",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Mi-28 style. Main rotor = node 'Rotor' (spin around local Y/up), tail rotor = 'TailRotor' (spin around local X).",
+    "size_m": [
+      16.07,
+      4.81,
+      20.16
+    ],
+    "bytes": 249820,
+    "preview": "preview/heli_attack.png"
+  },
+  "heli_transport": {
+    "file": "heli_transport.glb",
+    "tris": 544,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Utility transport helicopter (UH-60 style). Main rotor node 'Rotor' (spin about local up), tail rotor node 'TailRotor' (spin about local X).",
+    "size_m": [
+      15.84,
+      5.4,
+      19.62
+    ],
+    "bytes": 34236,
+    "preview": "preview/heli_transport.png"
+  },
+  "himars": {
+    "file": "himars.glb",
+    "tris": 696,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "6x6 truck with tilted 6-round rocket pod (HIMARS style). TeamColor on cab doors and pod sides.",
+    "size_m": [
+      2.87,
+      4.12,
+      7.91
+    ],
+    "bytes": 38836,
+    "preview": "preview/himars.png"
+  },
+  "hq": {
+    "file": "hq.glb",
+    "tris": 620,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Fortified command citadel (HQ): octagonal concrete base, keep, corner towers, antennas. Flag node 'Flag' + banners use TeamColor.",
+    "size_m": [
+      31.41,
+      27.0,
+      31.57
+    ],
+    "bytes": 37900,
+    "preview": "preview/hq.png"
+  },
+  "hypersonic_missile": {
+    "file": "hypersonic_missile.glb",
+    "tris": 248,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Hypersonic missile, horizontal, nose -Y. TeamColor band, glowing nozzle.",
+    "size_m": [
+      1.13,
+      1.16,
+      8.17
+    ],
+    "bytes": 16540,
+    "preview": "preview/hypersonic_missile.png"
+  },
+  "infantry": {
+    "file": "infantry.glb",
+    "tris": 408,
+    "source": "Viper.blend (armature + Run/Aim actions) + procedural low-poly body",
+    "forward": "+Z",
+    "animations": [
+      "Run",
+      "Aim"
+    ],
+    "notes": "Skinned soldier (armature from Viper), rifle node parented to bone hand.R. Clips: 'Run' (loop, 25 frames @24fps), 'Aim' (41f). Helmet + patches = TeamColor. Faces +Z.",
+    "size_m": [
+      0.7,
+      1.76,
+      1.33
+    ],
+    "bytes": 122720,
+    "preview": "preview/infantry.png"
+  },
+  "iron_dome": {
+    "file": "iron_dome.glb",
+    "tris": 732,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Interceptor launcher trailer (20 tubes, tilted) with separate radar panel unit on the same chassis.",
+    "size_m": [
+      2.56,
+      4.9,
+      7.78
+    ],
+    "bytes": 40464,
+    "preview": "preview/iron_dome.png"
+  },
+  "laser": {
+    "file": "laser.glb",
+    "tris": 664,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "8x8 armoured vehicle with turret-mounted laser beam director (glowing lens = material Lens).",
+    "size_m": [
+      2.96,
+      4.15,
+      7.2
+    ],
+    "bytes": 37368,
+    "preview": "preview/laser.png"
+  },
+  "map_airbase": {
+    "file": "map_airbase.glb",
+    "tris": 50715,
+    "source": "the4_forest10x10_v4.blend",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Forest tile with twin airfields (Air_*), camp, towers. Origin at tile center, z=0 = source ground level.",
+    "size_m": [
+      920.16,
+      148.4,
+      665.29
+    ],
+    "bytes": 3602768,
+    "preview": "preview/map_airbase.png"
+  },
+  "map_city": {
+    "file": "map_city.glb",
+    "tris": 43162,
+    "source": "the4_city10x10_v2.blend",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Ruined city district tile (roads, blocks, park, military post). Origin at tile center, z=0 = source ground level.",
+    "size_m": [
+      492.0,
+      196.63,
+      702.14
+    ],
+    "bytes": 3303696,
+    "preview": "preview/map_city.png"
+  },
+  "map_port": {
+    "file": "map_port.glb",
+    "tris": 77899,
+    "source": "the4_port10x10_v2.blend",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Harbour tile: docks, containers, cranes, town, island. Sea plane removed (game draws water). Origin at tile center, z=0 = source ground level.",
+    "size_m": [
+      839.0,
+      254.4,
+      1042.6
+    ],
+    "bytes": 4333984,
+    "preview": "preview/map_port.png"
+  },
+  "radar_tower": {
+    "file": "radar_tower.glb",
+    "tris": 468,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Lattice radar tower with radome; rotating antenna node 'Radar' (spin about local up). TeamColor rail band.",
+    "size_m": [
+      5.7,
+      19.15,
+      5.7
+    ],
+    "bytes": 33360,
+    "preview": "preview/radar_tower.png"
+  },
+  "rock": {
+    "file": "rock.glb",
+    "tris": 100,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Low-poly boulder.",
+    "size_m": [
+      3.35,
+      1.74,
+      2.49
+    ],
+    "bytes": 8828,
+    "preview": "preview/rock.png"
+  },
+  "sam": {
+    "file": "sam.glb",
+    "tris": 680,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "SAM launcher truck: 4 canisters tilted ~38 deg + radar panel behind cab. TeamColor stripes.",
+    "size_m": [
+      2.87,
+      6.89,
+      9.82
+    ],
+    "bytes": 39804,
+    "preview": "preview/sam.png"
+  },
+  "spg": {
+    "file": "spg.glb",
+    "tris": 676,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Tracked self-propelled howitzer (PzH-2000 style), long 155mm barrel. TeamColor stripes on turret.",
+    "size_m": [
+      3.42,
+      3.08,
+      12.08
+    ],
+    "bytes": 37124,
+    "preview": "preview/spg.png"
+  },
+  "stealth_ship": {
+    "file": "stealth_ship.glb",
+    "tris": 264,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Angular tumblehome stealth destroyer (Zumwalt style). Origin at waterline. TeamColor deck square + bands.",
+    "size_m": [
+      9.4,
+      15.94,
+      60.0
+    ],
+    "bytes": 17748,
+    "preview": "preview/stealth_ship.png"
+  },
+  "strongpoint": {
+    "file": "strongpoint.glb",
+    "tris": 484,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Capturable strongpoint: sandbag ring with entrance (front), flag pole; flag mesh node 'Flag' (TeamColor).",
+    "size_m": [
+      8.6,
+      6.16,
+      8.51
+    ],
+    "bytes": 31092,
+    "preview": "preview/strongpoint.png"
+  },
+  "submarine": {
+    "file": "submarine.glb",
+    "tris": 324,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Attack submarine: cylindrical hull + sail + cruciform rudders, surfaced. Origin at waterline.",
+    "size_m": [
+      5.8,
+      9.8,
+      40.6
+    ],
+    "bytes": 20244,
+    "preview": "preview/submarine.png"
+  },
+  "supply_truck": {
+    "file": "supply_truck.glb",
+    "tris": 540,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "6x6 logistics truck with canvas-covered cargo bed. TeamColor stripe on canvas.",
+    "size_m": [
+      2.87,
+      3.5,
+      7.78
+    ],
+    "bytes": 33624,
+    "preview": "preview/supply_truck.png"
+  },
+  "tank_heavy": {
+    "file": "tank_heavy.glb",
+    "tris": 7560,
+    "source": "JagdLeopard1_Tank.blend",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Jagdpanzer-style tank destroyer; tracks/wheels baked static.",
+    "size_m": [
+      3.49,
+      2.48,
+      13.52
+    ],
+    "bytes": 538048,
+    "preview": "preview/tank_heavy.png"
+  },
+  "tree_pine": {
+    "file": "tree_pine.glb",
+    "tris": 56,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Low-poly pine tree.",
+    "size_m": [
+      3.9,
+      7.2,
+      3.8
+    ],
+    "bytes": 4988,
+    "preview": "preview/tree_pine.png"
+  },
+  "tree_round": {
+    "file": "tree_round.glb",
+    "tris": 180,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Low-poly deciduous tree.",
+    "size_m": [
+      4.2,
+      5.59,
+      4.11
+    ],
+    "bytes": 15264,
+    "preview": "preview/tree_round.png"
+  },
+  "ugv": {
+    "file": "ugv.glb",
+    "tris": 488,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Small tracked combat robot (UGV) with remote turret and sensor mast.",
+    "size_m": [
+      1.8,
+      1.71,
+      2.31
+    ],
+    "bytes": 29824,
+    "preview": "preview/ugv.png"
+  },
+  "uuv": {
+    "file": "uuv.glb",
+    "tris": 248,
+    "source": "procedural",
+    "forward": "+Z",
+    "animations": [],
+    "notes": "Torpedo-shaped unmanned underwater vehicle; centreline at z=0 (waterline origin).",
+    "size_m": [
+      1.3,
+      1.3,
+      6.07
+    ],
+    "bytes": 15608,
+    "preview": "preview/uuv.png"
+  }
+}

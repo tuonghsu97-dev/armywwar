@@ -1,0 +1,492 @@
+[
+ {
+  "map": "plains",
+  "a": "steel",
+  "b": "swarm",
+  "loans": [
+   0,
+   0
+  ],
+  "time": 732,
+  "battle": 0,
+  "ended": {
+   "winner": 0,
+   "reason": "Thành chỉ huy của Phe Đỏ đã bị phá hủy"
+  },
+  "score": [
+   2891,
+   3249
+  ],
+  "kills": [
+   117,
+   92
+  ],
+  "units": [
+   4,
+   11
+  ],
+  "error": null,
+  "nan": [],
+  "outOfMap": [],
+  "wrongDomain": [],
+  "stuck": []
+ },
+ {
+  "map": "plains",
+  "a": "air",
+  "b": "ew",
+  "loans": [
+   0,
+   0
+  ],
+  "time": 744,
+  "battle": 0,
+  "ended": {
+   "winner": 1,
+   "reason": "Thành chỉ huy của Phe Xanh đã bị phá hủy"
+  },
+  "score": [
+   2060,
+   3200
+  ],
+  "kills": [
+   64,
+   94
+  ],
+  "units": [
+   14,
+   14
+  ],
+  "error": null,
+  "nan": [],
+  "outOfMap": [],
+  "wrongDomain": [],
+  "stuck": []
+ },
+ {
+  "map": "plains",
+  "a": "navy",
+  "b": "air",
+  "loans": [
+   0,
+   0
+  ],
+  "time": 744,
+  "battle": 0,
+  "ended": {
+   "winner": 1,
+   "reason": "Thành chỉ huy của Phe Xanh đã bị phá hủy"
+  },
+  "score": [
+   3326,
+   2998
+  ],
+  "kills": [
+   73,
+   101
+  ],
+  "units": [
+   11,
+   5
+  ],
+  "error": null,
+  "nan": [],
+  "outOfMap": [],
+  "wrongDomain": [],
+  "stuck": []
+ },
+ {
+  "map": "plains",
+  "a": "swarm",
+  "b": "ew",
+  "loans": [
+   0,
+   0
+  ],
+  "time": 820,
+  "battle": 0,
+  "ended": {
+   "winner": 0,
+   "reason": "Thành chỉ huy của Phe Đỏ đã bị phá hủy"
+  },
+  "score": [
+   3356,
+   1668
+  ],
+  "kills": [
+   73,
+   150
+  ],
+  "units": [
+   8,
+   3
+  ],
+  "error": null,
+  "nan": [],
+  "outOfMap": [],
+  "wrongDomain": [],
+  "stuck": []
+ },
+ {
+  "map": "plains",
+  "a": "ew",
+  "b": "steel",
+  "loans": [
+   0,
+   0
+  ],
+  "time": 735,
+  "battle": 0,
+  "ended": {
+   "winner": 1,
+   "reason": "Thành chỉ huy của Phe Xanh đã bị phá hủy"
+  },
+  "score": [
+   1896,
+   2959
+  ],
+  "kills": [
+   80,
+   53
+  ],
+  "units": [
+   7,
+   10
+  ],
+  "error": null,
+  "nan": [],
+  "outOfMap": [],
+  "wrongDomain": [],
+  "stuck": []
+ },
+ {
+  "map": "city",
+  "a": "steel",
+  "b": "swarm",
+  "loans": [
+   0,
+   0
+  ],
+  "time": 717,
+  "battle": 0,
+  "ended": {
+   "winner": 1,
+   "reason": "Thành chỉ huy của Phe Xanh đã bị phá hủy"
+  },
+  "score": [
+   2227,
+   3300
+  ],
+  "kills": [
+   107,
+   94
+  ],
+  "units": [
+   11,
+   14
+  ],
+  "error": null,
+  "nan": [],
+  "outOfMap": [],
+  "wrongDomain": [],
+  "stuck": []
+ },
+ {
+  "map": "city",
+  "a": "air",
+  "b": "ew",
+  "loans": [
+   0,
+   0
+  ],
+  "time": 616,
+  "battle": 0,
+  "ended": {
+   "winner": 1,
+   "reason": "Thành chỉ huy của Phe Xanh đã bị phá hủy"
+  },
+  "score": [
+   2581,
+   2769
+  ],
+  "kills": [
+   37,
+   66
+  ],
+  "units": [
+   10,
+   8
+  ],
+  "error": null,
+  "nan": [],
+  "outOfMap": [],
+  "wrongDomain": [],
+  "stuck": [
+   {
+    "t": 269,
+    "unit": "apc",
+    "side": 1,
+    "x": 199.9,
+    "z": 110,
+    "intent": "transport",
+    "order": "capture"
+   }
+  ]
+ },
+ {
+  "map": "city",
+  "a": "navy",
+  "b": "air",
+  "loans": [
+   0,
+   0
+  ],
+  "time": 648,
+  "battle": 0,
+  "ended": {
+   "winner": 1,
+   "reason": "Thành chỉ huy của Phe Xanh đã bị phá hủy"
+  },
+  "score": [
+   1742,
+   3624
+  ],
+  "kills": [
+   79,
+   50
+  ],
+  "units": [
+   5,
+   13
+  ],
+  "error": null,
+  "nan": [],
+  "outOfMap": [],
+  "wrongDomain": [],
+  "stuck": []
+ },
+ {
+  "map": "city",
+  "a": "swarm",
+  "b": "ew",
+  "loans": [
+   0,
+   0
+  ],
+  "time": 744,
+  "battle": 0,
+  "ended": {
+   "winner": 0,
+   "reason": "Thành chỉ huy của Phe Đỏ đã bị phá hủy"
+  },
+  "score": [
+   3563,
+   1423
+  ],
+  "kills": [
+   56,
+   131
+  ],
+  "units": [
+   9,
+   3
+  ],
+  "error": null,
+  "nan": [],
+  "outOfMap": [],
+  "wrongDomain": [],
+  "stuck": []
+ },
+ {
+  "map": "city",
+  "a": "ew",
+  "b": "steel",
+  "loans": [
+   0,
+   0
+  ],
+  "time": 714,
+  "battle": 0,
+  "ended": {
+   "winner": 1,
+   "reason": "Thành chỉ huy của Phe Xanh đã bị phá hủy"
+  },
+  "score": [
+   1707,
+   4436
+  ],
+  "kills": [
+   74,
+   60
+  ],
+  "units": [
+   4,
+   8
+  ],
+  "error": null,
+  "nan": [],
+  "outOfMap": [],
+  "wrongDomain": [],
+  "stuck": []
+ },
+ {
+  "map": "bay",
+  "a": "steel",
+  "b": "swarm",
+  "loans": [
+   0,
+   0
+  ],
+  "time": 603,
+  "battle": 0,
+  "ended": {
+   "winner": 1,
+   "reason": "Thành chỉ huy của Phe Xanh đã bị phá hủy"
+  },
+  "score": [
+   2133,
+   1297
+  ],
+  "kills": [
+   51,
+   37
+  ],
+  "units": [
+   7,
+   18
+  ],
+  "error": null,
+  "nan": [],
+  "outOfMap": [],
+  "wrongDomain": [],
+  "stuck": []
+ },
+ {
+  "map": "bay",
+  "a": "air",
+  "b": "ew",
+  "loans": [
+   0,
+   0
+  ],
+  "time": 684,
+  "battle": 0,
+  "ended": {
+   "winner": 1,
+   "reason": "Thành chỉ huy của Phe Xanh đã bị phá hủy"
+  },
+  "score": [
+   4648,
+   3605
+  ],
+  "kills": [
+   33,
+   71
+  ],
+  "units": [
+   3,
+   13
+  ],
+  "error": null,
+  "nan": [],
+  "outOfMap": [],
+  "wrongDomain": [],
+  "stuck": []
+ },
+ {
+  "map": "bay",
+  "a": "navy",
+  "b": "air",
+  "loans": [
+   0,
+   0
+  ],
+  "time": 494,
+  "battle": 0,
+  "ended": {
+   "winner": 0,
+   "reason": "Thành chỉ huy của Phe Đỏ đã bị phá hủy"
+  },
+  "score": [
+   2555,
+   2194
+  ],
+  "kills": [
+   45,
+   21
+  ],
+  "units": [
+   8,
+   13
+  ],
+  "error": null,
+  "nan": [],
+  "outOfMap": [],
+  "wrongDomain": [],
+  "stuck": []
+ },
+ {
+  "map": "bay",
+  "a": "swarm",
+  "b": "ew",
+  "loans": [
+   0,
+   0
+  ],
+  "time": 650,
+  "battle": 0,
+  "ended": {
+   "winner": 1,
+   "reason": "Thành chỉ huy của Phe Xanh đã bị phá hủy"
+  },
+  "score": [
+   2412,
+   2296
+  ],
+  "kills": [
+   26,
+   58
+  ],
+  "units": [
+   7,
+   9
+  ],
+  "error": null,
+  "nan": [],
+  "outOfMap": [],
+  "wrongDomain": [],
+  "stuck": []
+ },
+ {
+  "map": "bay",
+  "a": "ew",
+  "b": "steel",
+  "loans": [
+   0,
+   0
+  ],
+  "time": 533,
+  "battle": 0,
+  "ended": {
+   "winner": 1,
+   "reason": "Thành chỉ huy của Phe Xanh đã bị phá hủy"
+  },
+  "score": [
+   1671,
+   2211
+  ],
+  "kills": [
+   23,
+   19
+  ],
+  "units": [
+   9,
+   9
+  ],
+  "error": null,
+  "nan": [],
+  "outOfMap": [],
+  "wrongDomain": [],
+  "stuck": []
+ }
+]

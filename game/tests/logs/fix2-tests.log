@@ -1,0 +1,893 @@
+TAP version 13
+#   AI per tick: 0.172 ms with 124 units
+# Subtest: capture takes ~15 s of continuous presence
+ok 1 - capture takes ~15 s of continuous presence
+  ---
+  duration_ms: 52.6042
+  type: 'test'
+  ...
+# Subtest: capture is frozen when contested and resets when attacked or when the capturer leaves
+ok 2 - capture is frozen when contested and resets when attacked or when the capturer leaves
+  ---
+  duration_ms: 37.4922
+  type: 'test'
+  ...
+# Subtest: aircraft and drones cannot capture
+ok 3 - aircraft and drones cannot capture
+  ---
+  duration_ms: 64.4306
+  type: 'test'
+  ...
+# Subtest: transport loads from reserve, unloads an infantry squad of the same group, and goes back
+ok 4 - transport loads from reserve, unloads an infantry squad of the same group, and goes back
+  ---
+  duration_ms: 149.2596
+  type: 'test'
+  ...
+# Subtest: helicopter must land to unload
+ok 5 - helicopter must land to unload
+  ---
+  duration_ms: 72.1617
+  type: 'test'
+  ...
+# Subtest: SAM needs a carrier, then deploys at the strongpoint and never moves
+ok 6 - SAM needs a carrier, then deploys at the strongpoint and never moves
+  ---
+  duration_ms: 85.5296
+  type: 'test'
+  ...
+# Subtest: carrying weapons reduces troop capacity (APC)
+ok 7 - carrying weapons reduces troop capacity (APC)
+  ---
+  duration_ms: 7.8524
+  type: 'test'
+  ...
+# Subtest: retreat triggers automatically under 30% HP, repairs at home, then resumes
+ok 8 - retreat triggers automatically under 30% HP, repairs at home, then resumes
+  ---
+  duration_ms: 20.9358
+  type: 'test'
+  ...
+# Subtest: focus makes every unit that can hit it target the same id
+ok 9 - focus makes every unit that can hit it target the same id
+  ---
+  duration_ms: 50.8745
+  type: 'test'
+  ...
+# Subtest: fighters fly an attack pattern, fly home to rearm when out of ammo, then return
+ok 10 - fighters fly an attack pattern, fly home to rearm when out of ammo, then return
+  ---
+  duration_ms: 70.6541
+  type: 'test'
+  ...
+# Subtest: kamikaze drone dives on a target, damages it and dies; swarm loses drones one by one
+ok 11 - kamikaze drone dives on a target, damages it and dies; swarm loses drones one by one
+  ---
+  duration_ms: 9.7207
+  type: 'test'
+  ...
+# Subtest: recon drone marks enemies for the whole team (spotted)
+ok 12 - recon drone marks enemies for the whole team (spotted)
+  ---
+  duration_ms: 6.2106
+  type: 'test'
+  ...
+# Subtest: CCA flies as wingman of the nearest manned fighter
+ok 13 - CCA flies as wingman of the nearest manned fighter
+  ---
+  duration_ms: 26.3855
+  type: 'test'
+  ...
+# Subtest: submarine cannot land troops while enemy ships are near the dock, then surfaces and unloads
+ok 14 - submarine cannot land troops while enemy ships are near the dock, then surfaces and unloads
+  ---
+  duration_ms: 148.7837
+  type: 'test'
+  ...
+# Subtest: AI matches run clean: captures, transports, rearm, no exceptions
+ok 15 - AI matches run clean: captures, transports, rearm, no exceptions
+  ---
+  duration_ms: 3688.2641
+  type: 'test'
+  ...
+# Subtest: AI layers stay under 2 ms per tick with 120+ units
+ok 16 - AI layers stay under 2 ms per tick with 120+ units
+  ---
+  duration_ms: 606.5157
+  type: 'test'
+  ...
+# Subtest: boss carrier: spawns, battle starts, phases 1→2→3, waves, win
+ok 17 - boss carrier: spawns, battle starts, phases 1→2→3, waves, win
+  ---
+  duration_ms: 95.5117
+  type: 'test'
+  ...
+# Subtest: boss aa_fortress: spawns, battle starts, phases 1→2→3, waves, win
+ok 18 - boss aa_fortress: spawns, battle starts, phases 1→2→3, waves, win
+  ---
+  duration_ms: 61.7172
+  type: 'test'
+  ...
+# Subtest: boss strategic_sub: spawns, battle starts, phases 1→2→3, waves, win
+ok 19 - boss strategic_sub: spawns, battle starts, phases 1→2→3, waves, win
+  ---
+  duration_ms: 71.5244
+  type: 'test'
+  ...
+# Subtest: boss ai_city_core: spawns, battle starts, phases 1→2→3, waves, win
+ok 20 - boss ai_city_core: spawns, battle starts, phases 1→2→3, waves, win
+  ---
+  duration_ms: 206.2499
+  type: 'test'
+  ...
+# Subtest: carrier launches fighters periodically
+ok 21 - carrier launches fighters periodically
+  ---
+  duration_ms: 498.0946
+  type: 'test'
+  ...
+# Subtest: strategic sub surfaces and fires a salvo
+ok 22 - strategic sub surfaces and fires a salvo
+  ---
+  duration_ms: 91.8886
+  type: 'test'
+  ...
+# Subtest: aa fortress punishes player aircraft
+ok 23 - aa fortress punishes player aircraft
+  ---
+  duration_ms: 5.5592
+  type: 'test'
+  ...
+# Subtest: enemy HQ is protected while the boss lives (boss is the objective, F-08)
+ok 24 - enemy HQ is protected while the boss lives (boss is the objective, F-08)
+  ---
+  duration_ms: 5.8799
+  type: 'test'
+  ...
+# Subtest: passive mods + tier bonus applied at init for every commander
+ok 25 - passive mods + tier bonus applied at init for every commander
+  ---
+  duration_ms: 35.7883
+  type: 'test'
+  ...
+# Subtest: tier bonus applied to spawned units (steel tank +10% HP, air +10% range)
+not ok 26 - tier bonus applied to spawned units (steel tank +10% HP, air +10% range)
+  ---
+  duration_ms: 3.9164
+  type: 'test'
+  location: 'D:\\HoangKiet\\armywwar\\game\\tests\\commanders.test.mjs:29:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    858 !== 990
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 990
+  actual: 858
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///D:/HoangKiet/armywwar/game/tests/commanders.test.mjs:32:10)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:296:3)
+  ...
+# Subtest: commander is locked in match (F-25)
+ok 27 - commander is locked in match (F-25)
+  ---
+  duration_ms: 6.3024
+  type: 'test'
+  ...
+# Subtest: ultimate rejected in deploy phase, without CP, during cooldown; accepted with CP
+ok 28 - ultimate rejected in deploy phase, without CP, during cooldown; accepted with CP
+  ---
+  duration_ms: 6.33
+  type: 'test'
+  ...
+# Subtest: Miệng Chôn: tanks+infantry get +40% speed & armor, wedge move, restored after 15 s
+ok 29 - Miệng Chôn: tanks+infantry get +40% speed & armor, wedge move, restored after 15 s
+  ---
+  duration_ms: 100.4868
+  type: 'test'
+  ...
+# Subtest: Mưa Thép: 8 waves of bombing damage enemies at the point
+ok 30 - Mưa Thép: 8 waves of bombing damage enemies at the point
+  ---
+  duration_ms: 15.4389
+  type: 'test'
+  ...
+# Subtest: Phong Tỏa: reveals enemy subs to the navy side + cruise missiles hit units inside
+ok 31 - Phong Tỏa: reveals enemy subs to the navy side + cruise missiles hit units inside
+  ---
+  duration_ms: 28.2885
+  type: 'test'
+  ...
+# Subtest: Đàn Ong: 40 temporary kamikaze drones from several directions, expire later
+ok 32 - Đàn Ong: 40 temporary kamikaze drones from several directions, expire later
+  ---
+  duration_ms: 183.1147
+  type: 'test'
+  ...
+# Subtest: Màn Đêm: hacks up to 3 enemy remote units, jams radar; they return after the duration
+ok 33 - Màn Đêm: hacks up to 3 enemy remote units, jams radar; they return after the duration
+  ---
+  duration_ms: 41.6606
+  type: 'test'
+  ...
+# Subtest: hypersonic: costs money, cooldown, warning, cannot be intercepted
+ok 34 - hypersonic: costs money, cooldown, warning, cannot be intercepted
+  ---
+  duration_ms: 5.51
+  type: 'test'
+  ...
+# Subtest: hypersonic rejected without money
+ok 35 - hypersonic rejected without money
+  ---
+  duration_ms: 1.9278
+  type: 'test'
+  ...
+# Subtest: rearmSpeed: air commander rearms aircraft faster (ai.js rearm reads the mod)
+ok 36 - rearmSpeed: air commander rearms aircraft faster (ai.js rearm reads the mod)
+  ---
+  duration_ms: 7.5564
+  type: 'test'
+  ...
+# Subtest: swarmRegen: swarm commander regrows drones
+ok 37 - swarmRegen: swarm commander regrows drones
+  ---
+  duration_ms: 62.3486
+  type: 'test'
+  ...
+# Subtest: weather: rain reduces ground range, weather cycle changes weather
+ok 38 - weather: rain reduces ground range, weather cycle changes weather
+  ---
+  duration_ms: 52.7405
+  type: 'test'
+  ...
+# Subtest: buy: deducts money, spawns at HQ with slot group, crew drawn from troops
+ok 39 - buy: deducts money, spawns at HQ with slot group, crew drawn from troops
+  ---
+  duration_ms: 24.3931
+  type: 'test'
+  ...
+# Subtest: buy: aircraft spawn at the airfield
+ok 40 - buy: aircraft spawn at the airfield
+  ---
+  duration_ms: 22.1324
+  type: 'test'
+  ...
+# Subtest: buy: rejected when money is insufficient; >1 tỷ needs a loan
+ok 41 - buy: rejected when money is insufficient; >1 tỷ needs a loan
+  ---
+  duration_ms: 26.261
+  type: 'test'
+  ...
+# Subtest: buy: 9-slot formation limit, swarm = 1 slot, dead slot is reusable
+ok 42 - buy: 9-slot formation limit, swarm = 1 slot, dead slot is reusable
+  ---
+  duration_ms: 15.0287
+  type: 'test'
+  ...
+# Subtest: buy: formation CP limit (30)
+ok 43 - buy: formation CP limit (30)
+  ---
+  duration_ms: 6.1927
+  type: 'test'
+  ...
+# Subtest: sell: 55% of purchase price, crew back to reserve
+ok 44 - sell: 55% of purchase price, crew back to reserve
+  ---
+  duration_ms: 47.2714
+  type: 'test'
+  ...
+# Subtest: upgrade: costs money, re-applies tier stats keeping hp fraction; T3 needs rare material; max 3 T3
+ok 45 - upgrade: costs money, re-applies tier stats keeping hp fraction; T3 needs rare material; max 3 T3
+  ---
+  duration_ms: 8.6153
+  type: 'test'
+  ...
+# Subtest: loan: interest + due time; repay
+ok 46 - loan: interest + due time; repay
+  ---
+  duration_ms: 3.28
+  type: 'test'
+  ...
+# Subtest: loan due with insufficient money → liquidation at 55% pays it
+ok 47 - loan due with insufficient money → liquidation at 55% pays it
+  ---
+  duration_ms: 3.6794
+  type: 'test'
+  ...
+# Subtest: loan due, liquidation not enough → bankrupt → defeat
+ok 48 - loan due, liquidation not enough → bankrupt → defeat
+  ---
+  duration_ms: 3.7809
+  type: 'test'
+  ...
+# Subtest: recruit: costs money, training time, capped per minute
+ok 49 - recruit: costs money, training time, capped per minute
+  ---
+  duration_ms: 61.8353
+  type: 'test'
+  ...
+# Subtest: mobilize: big batch, raises upkeep and lowers income while active; once per match
+ok 50 - mobilize: big batch, raises upkeep and lowers income while active; once per match
+  ---
+  duration_ms: 16.5256
+  type: 'test'
+  ...
+# Subtest: income per held strongpoint per minute, upkeep subtracted
+ok 51 - income per held strongpoint per minute, upkeep subtracted
+  ---
+  duration_ms: 185.8457
+  type: 'test'
+  ...
+# Subtest: kill bounty and high-value kill score
+ok 52 - kill bounty and high-value kill score
+  ---
+  duration_ms: 3.5356
+  type: 'test'
+  ...
+# Subtest: occupation score and command points accrue faster with strongpoints
+ok 53 - occupation score and command points accrue faster with strongpoints
+  ---
+  duration_ms: 6.9987
+  type: 'test'
+  ...
+# Subtest: unitPrice: swarm priced per swarm, tiers cumulative
+ok 54 - unitPrice: swarm priced per swarm, tiers cumulative
+  ---
+  duration_ms: 0.1907
+  type: 'test'
+  ...
+# Subtest: F-80: T2 / T3 raise HP, damage and range by the GDD percentages (+20–25%, +45–55%)
+ok 55 - F-80: T2 / T3 raise HP, damage and range by the GDD percentages (+20–25%, +45–55%)
+  ---
+  duration_ms: 1.7538
+  type: 'test'
+  ...
+# Subtest: F-85: one CP formula for tiers in the formation builder and in the match
+ok 56 - F-85: one CP formula for tiers in the formation builder and in the match
+  ---
+  duration_ms: 16.7583
+  type: 'test'
+  ...
+# Subtest: F-81: every group has 2 accessories with real mods; T2 = first, T3 = both
+ok 57 - F-81: every group has 2 accessories with real mods; T2 = first, T3 = both
+  ---
+  duration_ms: 1.2286
+  type: 'test'
+  ...
+# Subtest: F-81: accessory stat effects apply on spawn and on in-match upgrade (retier)
+ok 58 - F-81: accessory stat effects apply on spawn and on in-match upgrade (retier)
+  ---
+  duration_ms: 31.3083
+  type: 'test'
+  ...
+# Subtest: F-81: behaviour accessories — jam resistance, double intercept, deep-dive sub, night vision
+ok 59 - F-81: behaviour accessories — jam resistance, double intercept, deep-dive sub, night vision
+  ---
+  duration_ms: 19.9706
+  type: 'test'
+  ...
+# Subtest: F-90: city blocks block ground line of sight; air observers see over them
+ok 60 - F-90: city blocks block ground line of sight; air observers see over them
+  ---
+  duration_ms: 8.8095
+  type: 'test'
+  ...
+# Subtest: F-90: unspotted artillery cannot hit targets behind buildings; heavy vehicles slower off-road in the city
+ok 61 - F-90: unspotted artillery cannot hit targets behind buildings; heavy vehicles slower off-road in the city
+  ---
+  duration_ms: 30.2173
+  type: 'test'
+  ...
+# Subtest: F-90: city tunnels move infantry / UGV under the canal; tanks do not use them
+ok 62 - F-90: city tunnels move infantry / UGV under the canal; tanks do not use them
+  ---
+  duration_ms: 45.9413
+  type: 'test'
+  ...
+# Subtest: recorder annotates orders with formation groups
+ok 63 - recorder annotates orders with formation groups
+  ---
+  duration_ms: 74.7575
+  type: 'test'
+  ...
+# Subtest: snapshot replay issues the recorded commands at the same ticks, mirrored to side 1
+ok 64 - snapshot replay issues the recorded commands at the same ticks, mirrored to side 1
+  ---
+  duration_ms: 112.2522
+  type: 'test'
+  ...
+# Subtest: replay deviation: missing group is skipped and adaptive fallback takes over
+ok 65 - replay deviation: missing group is skipped and adaptive fallback takes over
+  ---
+  duration_ms: 158.6608
+  type: 'test'
+  ...
+# Subtest: seed pool: ~8 AI snapshots with different commanders, all replayable
+ok 66 - seed pool: ~8 AI snapshots with different commanders, all replayable
+  ---
+  duration_ms: 886.7332
+  type: 'test'
+  ...
+# Subtest: anti-abuse: abnormal win rate filtered, 3 fights per day per snapshot
+ok 67 - anti-abuse: abnormal win rate filtered, 3 fights per day per snapshot
+  ---
+  duration_ms: 32.6966
+  type: 'test'
+  ...
+# Subtest: ghost result: fights/wins/reputation updated, pool persists through storage
+ok 68 - ghost result: fights/wins/reputation updated, pool persists through storage
+  ---
+  duration_ms: 39.4531
+  type: 'test'
+  ...
+# Subtest: profile works without localStorage (Node) and persists with it
+ok 69 - profile works without localStorage (Node) and persists with it
+  ---
+  duration_ms: 3.8332
+  type: 'test'
+  ...
+# Subtest: formation validation: 9 slots, CP limit, max 3 T3, budget, swarm = 1 slot
+ok 70 - formation validation: 9 slots, CP limit, max 3 T3, budget, swarm = 1 slot
+  ---
+  duration_ms: 1.7736
+  type: 'test'
+  ...
+# Subtest: tier unlocks cost gold, T3 needs rare materials; formation tier must be unlocked
+ok 71 - tier unlocks cost gold, T3 needs rare materials; formation tier must be unlocked
+  ---
+  duration_ms: 0.5741
+  type: 'test'
+  ...
+# Subtest: recommended formations always satisfy the rules for every commander
+ok 72 - recommended formations always satisfy the rules for every commander
+  ---
+  duration_ms: 3.041
+  type: 'test'
+  ...
+# Subtest: skirmish enemy counters the player and scales with rating + learned data
+ok 73 - skirmish enemy counters the player and scales with rating + learned data
+  ---
+  duration_ms: 52.082
+  type: 'test'
+  ...
+# Subtest: match result: rewards, stats per commander/unit, missions, learned data, boss unlocks
+ok 74 - match result: rewards, stats per commander/unit, missions, learned data, boss unlocks
+  ---
+  duration_ms: 1.5776
+  type: 'test'
+  ...
+# Subtest: daily missions: 3 per day, deterministic, change with the day
+ok 75 - daily missions: 3 per day, deterministic, change with the day
+  ---
+  duration_ms: 0.5417
+  type: 'test'
+  ...
+# Subtest: cosmetics bought with badges only, battle pass claims
+ok 76 - cosmetics bought with badges only, battle pass claims
+  ---
+  duration_ms: 0.4017
+  type: 'test'
+  ...
+# Subtest: summarizeMatch reads a real game (commandLog orders, captures counter)
+ok 77 - summarizeMatch reads a real game (commandLog orders, captures counter)
+  ---
+  duration_ms: 69.1568
+  type: 'test'
+  ...
+# Subtest: screens smoke: menu → commander → formation → map → startMatch opts; boss, ghost, profile, result
+not ok 78 - screens smoke: menu → commander → formation → map → startMatch opts; boss, ghost, profile, result
+  ---
+  duration_ms: 62.7442
+  type: 'test'
+  location: 'D:\\HoangKiet\\armywwar\\game\\tests\\meta.test.mjs:202:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The expression evaluated to a falsy value:
+    
+      assert.ok(cur().innerHTML.includes('id="preloan"') && cur().innerHTML.includes('tot-debt'))
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///D:/HoangKiet/armywwar/game/tests/meta.test.mjs:240:12)
+    async Test.run (node:internal/test_runner/test:1054:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: tutorial: steps 2–11 advance on the real player actions (deploy, ready, select, order, capture)
+ok 79 - tutorial: steps 2–11 advance on the real player actions (deploy, ready, select, order, capture)
+  ---
+  duration_ms: 13.3149
+  type: 'test'
+  ...
+# Subtest: formation is paid from the 1 tỷ start money; navy recommendation takes a loan for a destroyer
+not ok 80 - formation is paid from the 1 tỷ start money; navy recommendation takes a loan for a destroyer
+  ---
+  duration_ms: 5.9707
+  type: 'test'
+  location: 'D:\\HoangKiet\\armywwar\\game\\tests\\meta.test.mjs:341:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The expression evaluated to a falsy value:
+    
+      assert.ok(navy.loan > 0 && navy.formation.some(s => s.unit === 'destroyer'))
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///D:/HoangKiet/armywwar/game/tests/meta.test.mjs:347:10)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: pre-match loan: due at absolute game.time (deploy + 480 s), repaid when money is enough
+ok 81 - pre-match loan: due at absolute game.time (deploy + 480 s), repaid when money is enough
+  ---
+  duration_ms: 702.2502
+  type: 'test'
+  ...
+# Subtest: pre-match loan: not enough money at due → liquidation (and bankrupt if still short)
+ok 82 - pre-match loan: not enough money at due → liquidation (and bankrupt if still short)
+  ---
+  duration_ms: 438.2757
+  type: 'test'
+  ...
+# Subtest: meta money: win reward pays debt first and the rest carries over; loss carries unpaid loans as debt
+ok 83 - meta money: win reward pays debt first and the rest carries over; loss carries unpaid loans as debt
+  ---
+  duration_ms: 0.7154
+  type: 'test'
+  ...
+# Subtest: meta money: a real match end exposes the win reward and unpaid loans to summarizeMatch
+ok 84 - meta money: a real match end exposes the win reward and unpaid loans to summarizeMatch
+  ---
+  duration_ms: 2.096
+  type: 'test'
+  ...
+# Subtest: capture: ground unit alone in the ring flips a neutral strongpoint after ~15 s (F-131/F-132)
+ok 85 - capture: ground unit alone in the ring flips a neutral strongpoint after ~15 s (F-131/F-132)
+  ---
+  duration_ms: 98.231
+  type: 'test'
+  ...
+# Subtest: capture: enemy unit inside the ring freezes progress (contested) (F-131)
+ok 86 - capture: enemy unit inside the ring freezes progress (contested) (F-131)
+  ---
+  duration_ms: 93.9142
+  type: 'test'
+  ...
+# Subtest: capture: aircraft / drones cannot capture (F-133)
+ok 87 - capture: aircraft / drones cannot capture (F-133)
+  ---
+  duration_ms: 43.8047
+  type: 'test'
+  ...
+# Subtest: BUG: tutorial first-completion reward (300 gold) is lost because the overlay sets tutorialDone before the match ends
+ok 88 - BUG: tutorial first-completion reward (300 gold) is lost because the overlay sets tutorialDone before the match ends
+  ---
+  duration_ms: 2.6037
+  type: 'test'
+  ...
+# Subtest: BUG: "Đề xuất" for Đô đốc Hải quân auto-takes a 2 tỷ loan that it cannot repay → bankrupt at ~8:00
+not ok 89 - BUG: "Đề xuất" for Đô đốc Hải quân auto-takes a 2 tỷ loan that it cannot repay → bankrupt at ~8:00
+  ---
+  duration_ms: 4477.4262
+  type: 'test'
+  location: 'D:\\HoangKiet\\armywwar\\game\\tests\\qa-bugs.test.mjs:62:1'
+  failureType: 'testCodeFailure'
+  error: 'navy recommendation takes the max loan'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///D:/HoangKiet/armywwar/game/tests/qa-bugs.test.mjs:74:10)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: BUG: infantry dropped by a helicopter over water spawns in the water (transport.js spawnInfantry has no passability check)
+ok 90 - BUG: infantry dropped by a helicopter over water spawns in the water (transport.js spawnInfantry has no passability check)
+  ---
+  duration_ms: 1.1454
+  type: 'test'
+  ...
+# Subtest: BUG: map hints disagree with the map text (city says "Tank nặng" is limited, bay says "bộ binh")
+ok 91 - BUG: map hints disagree with the map text (city says "Tank nặng" is limited, bay says "bộ binh")
+  ---
+  duration_ms: 0.1191
+  type: 'test'
+  ...
+# Subtest: time limit, out of soldiers, HQ, surrender all end the match (F-150..F-155) — smoke
+ok 92 - time limit, out of soldiers, HQ, surrender all end the match (F-150..F-155) — smoke
+  ---
+  duration_ms: 1.3497
+  type: 'test'
+  ...
+# Subtest: sim sweep plains: steel vs swarm
+ok 93 - sim sweep plains: steel vs swarm
+  ---
+  duration_ms: 3436.5669
+  type: 'test'
+  ...
+# Subtest: sim sweep plains: air vs ew
+ok 94 - sim sweep plains: air vs ew
+  ---
+  duration_ms: 2323.9954
+  type: 'test'
+  ...
+# Subtest: sim sweep plains: navy vs air
+ok 95 - sim sweep plains: navy vs air
+  ---
+  duration_ms: 1029.7647
+  type: 'test'
+  ...
+# Subtest: sim sweep plains: swarm vs ew
+ok 96 - sim sweep plains: swarm vs ew
+  ---
+  duration_ms: 2023.3935
+  type: 'test'
+  ...
+# Subtest: sim sweep plains: ew vs steel
+ok 97 - sim sweep plains: ew vs steel
+  ---
+  duration_ms: 1444.5443
+  type: 'test'
+  ...
+# Subtest: sim sweep city: steel vs swarm
+ok 98 - sim sweep city: steel vs swarm
+  ---
+  duration_ms: 1612.1126
+  type: 'test'
+  ...
+# Subtest: sim sweep city: air vs ew
+ok 99 - sim sweep city: air vs ew
+  ---
+  duration_ms: 2019.6541
+  type: 'test'
+  ...
+# Subtest: sim sweep city: navy vs air
+ok 100 - sim sweep city: navy vs air
+  ---
+  duration_ms: 1733.0692
+  type: 'test'
+  ...
+# Subtest: sim sweep city: swarm vs ew
+ok 101 - sim sweep city: swarm vs ew
+  ---
+  duration_ms: 1768.1926
+  type: 'test'
+  ...
+# Subtest: sim sweep city: ew vs steel
+ok 102 - sim sweep city: ew vs steel
+  ---
+  duration_ms: 1681.6657
+  type: 'test'
+  ...
+# Subtest: sim sweep bay: steel vs swarm
+ok 103 - sim sweep bay: steel vs swarm
+  ---
+  duration_ms: 1160.0783
+  type: 'test'
+  ...
+# Subtest: sim sweep bay: air vs ew
+ok 104 - sim sweep bay: air vs ew
+  ---
+  duration_ms: 1289.7888
+  type: 'test'
+  ...
+# Subtest: sim sweep bay: navy vs air
+ok 105 - sim sweep bay: navy vs air
+  ---
+  duration_ms: 993.944
+  type: 'test'
+  ...
+# Subtest: sim sweep bay: swarm vs ew
+ok 106 - sim sweep bay: swarm vs ew
+  ---
+  duration_ms: 1496.4762
+  type: 'test'
+  ...
+# Subtest: sim sweep bay: ew vs steel
+ok 107 - sim sweep bay: ew vs steel
+  ---
+  duration_ms: 1213.2882
+  type: 'test'
+  ...
+# Subtest: render modules pass node --check
+ok 108 - render modules pass node --check
+  ---
+  duration_ms: 1479.3742
+  type: 'test'
+  ...
+# Subtest: fx modules import and expose their API
+ok 109 - fx modules import and expose their API
+  ---
+  duration_ms: 27.1381
+  type: 'test'
+  ...
+# Subtest: water texture bake matches the map grid
+ok 110 - water texture bake matches the map grid
+  ---
+  duration_ms: 20.7984
+  type: 'test'
+  ...
+# Subtest: particle pool emits, wraps and flushes update ranges
+ok 111 - particle pool emits, wraps and flushes update ranges
+  ---
+  duration_ms: 3.9503
+  type: 'test'
+  ...
+# Subtest: unit material variants patch the standard shader
+ok 112 - unit material variants patch the standard shader
+  ---
+  duration_ms: 1.8437
+  type: 'test'
+  ...
+# Subtest: APS blocks an incoming missile (T1: 1 charge, T3: 2 charges)
+ok 113 - APS blocks an incoming missile (T1: 1 charge, T3: 2 charges)
+  ---
+  duration_ms: 95.941
+  type: 'test'
+  ...
+# Subtest: laser beam removes several swarm drones per hit
+ok 114 - laser beam removes several swarm drones per hit
+  ---
+  duration_ms: 5.0164
+  type: 'test'
+  ...
+# Subtest: EW jams enemy remote units inside jamRadius*(1+mods.jamRadius) only
+ok 115 - EW jams enemy remote units inside jamRadius*(1+mods.jamRadius) only
+  ---
+  duration_ms: 8.7575
+  type: 'test'
+  ...
+# Subtest: EW aura misdirects enemy missiles flying through it (statistically)
+ok 116 - EW aura misdirects enemy missiles flying through it (statistically)
+  ---
+  duration_ms: 72.7607
+  type: 'test'
+  ...
+# Subtest: UGV drops mines that damage enemy ground units passing over
+ok 117 - UGV drops mines that damage enemy ground units passing over
+  ---
+  duration_ms: 88.8167
+  type: 'test'
+  ...
+# Subtest: recon drone marks enemies for the whole team
+ok 118 - recon drone marks enemies for the whole team
+  ---
+  duration_ms: 4.8433
+  type: 'test'
+  ...
+# Subtest: kamikaze dives and destroys itself on target; jammed kamikaze drifts off
+ok 119 - kamikaze dives and destroys itself on target; jammed kamikaze drifts off
+  ---
+  duration_ms: 74.3471
+  type: 'test'
+  ...
+# Subtest: swarm attacks drain drone count; saturate skill boosts damage
+ok 120 - swarm attacks drain drone count; saturate skill boosts damage
+  ---
+  duration_ms: 7.8229
+  type: 'test'
+  ...
+# Subtest: stealth fighter goes stealth and emits events
+ok 121 - stealth fighter goes stealth and emits events
+  ---
+  duration_ms: 14.5017
+  type: 'test'
+  ...
+# Subtest: player skill command: SPG barrage at a point, out of range rejected
+ok 122 - player skill command: SPG barrage at a point, out of range rejected
+  ---
+  duration_ms: 50.2543
+  type: 'test'
+  ...
+# Subtest: CCA takes the hit for a manned jet (decoy)
+ok 123 - CCA takes the hit for a manned jet (decoy)
+  ---
+  duration_ms: 2.6871
+  type: 'test'
+  ...
+# Subtest: bomber carpet bombing is never auto-used for a human side (F-70)
+ok 124 - bomber carpet bombing is never auto-used for a human side (F-70)
+  ---
+  duration_ms: 23.9983
+  type: 'test'
+  ...
+# Subtest: stealth ship launches a temporary recon drone
+ok 125 - stealth ship launches a temporary recon drone
+  ---
+  duration_ms: 7.6718
+  type: 'test'
+  ...
+# Subtest: HQ destroyed → the other side wins
+ok 126 - HQ destroyed → the other side wins
+  ---
+  duration_ms: 18.8503
+  type: 'test'
+  ...
+# Subtest: own HQ destroyed → defeat
+ok 127 - own HQ destroyed → defeat
+  ---
+  duration_ms: 15.4537
+  type: 'test'
+  ...
+# Subtest: surrender command → defeat for that side
+ok 128 - surrender command → defeat for that side
+  ---
+  duration_ms: 3.7289
+  type: 'test'
+  ...
+# Subtest: time limit: higher occupation score wins
+ok 129 - time limit: higher occupation score wins
+  ---
+  duration_ms: 3.3956
+  type: 'test'
+  ...
+# Subtest: time limit: tie on score → more soldiers wins
+ok 130 - time limit: tie on score → more soldiers wins
+  ---
+  duration_ms: 3.1093
+  type: 'test'
+  ...
+# Subtest: time limit: full tie → draw
+ok 131 - time limit: full tie → draw
+  ---
+  duration_ms: 2.3386
+  type: 'test'
+  ...
+# Subtest: out of soldiers → defeat (infantry/crew still alive keep you in)
+ok 132 - out of soldiers → defeat (infantry/crew still alive keep you in)
+  ---
+  duration_ms: 8.2743
+  type: 'test'
+  ...
+# Subtest: soldiers in training keep the side alive
+ok 133 - soldiers in training keep the side alive
+  ---
+  duration_ms: 9.7452
+  type: 'test'
+  ...
+# Subtest: AI surrenders when its army is crushed and HQ is under 50%
+ok 134 - AI surrenders when its army is crushed and HQ is under 50%
+  ---
+  duration_ms: 62.7109
+  type: 'test'
+  ...
+# Subtest: no victory during deployment except HQ / surrender
+ok 135 - no victory during deployment except HQ / surrender
+  ---
+  duration_ms: 33.7445
+  type: 'test'
+  ...
+1..135
+# tests 135
+# suites 0
+# pass 131
+# fail 4
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 25497.2464

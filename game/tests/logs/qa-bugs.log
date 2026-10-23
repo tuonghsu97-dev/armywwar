@@ -1,0 +1,130 @@
+TAP version 13
+# Subtest: capture: ground unit alone in the ring flips a neutral strongpoint after ~15 s (F-131/F-132)
+ok 1 - capture: ground unit alone in the ring flips a neutral strongpoint after ~15 s (F-131/F-132)
+  ---
+  duration_ms: 25.8591
+  type: 'test'
+  ...
+# Subtest: capture: enemy unit inside the ring freezes progress (contested) (F-131)
+ok 2 - capture: enemy unit inside the ring freezes progress (contested) (F-131)
+  ---
+  duration_ms: 17.823
+  type: 'test'
+  ...
+# Subtest: capture: aircraft / drones cannot capture (F-133)
+ok 3 - capture: aircraft / drones cannot capture (F-133)
+  ---
+  duration_ms: 16.7
+  type: 'test'
+  ...
+# Subtest: BUG: tutorial first-completion reward (300 gold) is lost because the overlay sets tutorialDone before the match ends
+not ok 4 - BUG: tutorial first-completion reward (300 gold) is lost because the overlay sets tutorialDone before the match ends
+  ---
+  duration_ms: 2.4359
+  type: 'test'
+  location: 'D:\\HoangKiet\\armywwar\\game\\tests\\qa-bugs.test.mjs:53:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    player never receives the "Hoàn thành trận tập" reward
+    
+    0 !== 300
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 300
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///D:/HoangKiet/armywwar/game/tests/qa-bugs.test.mjs:59:10)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: BUG: "Đề xuất" for Đô đốc Hải quân auto-takes a 2 tỷ loan that it cannot repay → bankrupt at ~8:00
+not ok 5 - BUG: "Đề xuất" for Đô đốc Hải quân auto-takes a 2 tỷ loan that it cannot repay → bankrupt at ~8:00
+  ---
+  duration_ms: 3106.5651
+  type: 'test'
+  location: 'D:\\HoangKiet\\armywwar\\game\\tests\\qa-bugs.test.mjs:62:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    navy went bankrupt in 3/4 runs: bay/3: Phe Xanh phá sản: không trả được nợ đến hạn dù đã bán khí tài | bay/4: Phe Xanh phá sản: không trả được nợ đến hạn dù đã bán khí tài | plains/4: Phe Xanh đã đầu hàng | city/3: Phe Xanh phá sản: không trả được nợ đến hạn dù đã bán khí tài
+    
+    3 !== 0
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 0
+  actual: 3
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///D:/HoangKiet/armywwar/game/tests/qa-bugs.test.mjs:75:10)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: BUG: infantry dropped by a helicopter over water spawns in the water (transport.js spawnInfantry has no passability check)
+not ok 6 - BUG: infantry dropped by a helicopter over water spawns in the water (transport.js spawnInfantry has no passability check)
+  ---
+  duration_ms: 1.6572
+  type: 'test'
+  location: 'D:\\HoangKiet\\armywwar\\game\\tests\\qa-bugs.test.mjs:78:1'
+  failureType: 'testCodeFailure'
+  error: 'infantry spawned on impassable cell at 127.4,10.5'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///D:/HoangKiet/armywwar/game/tests/qa-bugs.test.mjs:87:31)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: BUG: map hints disagree with the map text (city says "Tank nặng" is limited, bay says "bộ binh")
+not ok 7 - BUG: map hints disagree with the map text (city says "Tank nặng" is limited, bay says "bộ binh")
+  ---
+  duration_ms: 0.2846
+  type: 'test'
+  location: 'D:\\HoangKiet\\armywwar\\game\\tests\\qa-bugs.test.mjs:90:1'
+  failureType: 'testCodeFailure'
+  error: 'city.limited="Tank nặng, hải quân, tên lửa tầm xa (bị nhà che)" but limitedGroups=["navy"]'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///D:/HoangKiet/armywwar/game/tests/qa-bugs.test.mjs:91:10)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: time limit, out of soldiers, HQ, surrender all end the match (F-150..F-155) — smoke
+ok 8 - time limit, out of soldiers, HQ, surrender all end the match (F-150..F-155) — smoke
+  ---
+  duration_ms: 2.0113
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 4
+# fail 4
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3271.5754
